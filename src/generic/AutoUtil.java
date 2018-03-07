@@ -19,7 +19,7 @@ public class AutoUtil {
 		try {
 			p.load(new FileInputStream(path));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 		value=p.getProperty(key);
